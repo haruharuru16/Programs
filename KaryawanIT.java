@@ -255,16 +255,3 @@ class ProjectLeader extends Karyawan{
         System.out.printf("%-15s | %-15s | %-20s | Rp. %-15s | Rp. %-28s | Rp. %-15s%n", this.getNama().toUpperCase(), this.getKodeKaryawan(), "Project Leader", this.getRupiah(), this.getRupiahPl(), this.getRupiah2());
     }
 }
-
-/*
-Tugas
-1. lengkapi definisi kelas SeniorProgrammer dan ProjectLeader
-2. method totalGaji() akan menghitung total gaji dari keseluruhan karyawan
-3. ubah Pada main method sehingga program akan mengelola :
-   - data 3 orang Karyawan, dengan jenis beda-beda
-   - data 3 orang programmer
-   - data 2 orang Senior programmer
-   - data seorang Project leader
-   - menampilkan dengan method info, seluruh data karyawan IT
-   - menampilkan total gaji yang dikeluarkan
- */
